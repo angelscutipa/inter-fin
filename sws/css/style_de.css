@@ -1,0 +1,404 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{text-decoration:none} 
+
+body{
+   	font-family: Sans-Serif;
+   	background: #e6e6e6;
+}
+
+#header{
+	margin: 0px 30px;
+	width: 1000px;
+}
+ul, ol{
+	list-style: none;
+}
+.nav li a{
+	background-color: #03a9f4;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block;
+	font: bold 100% Sans-Serif;
+}
+
+.nav li a:hover{
+	background-color: #434343;
+}
+
+.nav > li{
+	float: left;
+}
+.nav li ul{
+	display: none;
+	position: absolute;
+	z-index: 3;
+	min-width: 140px;
+}
+.nav li:hover > ul{
+	display: block;
+}
+.nav li ul li{
+	position: relative;
+
+}
+.nav li ul li ul{
+	right: -140px;
+	top: 0px;
+}
+
+#portada{
+	position: relative;
+	height: 40px;
+	background: #03a9f4;
+	top: 0px;
+	opacity: 1;
+}
+
+#portada img{
+	position: absolute;
+}
+
+.titulo {
+	position: relative;
+	top: 10px;
+
+}
+.titulo h1{
+	position: relative;
+	background: #81bbfc;
+	z-index: 1;
+	left: 10px;
+	height: 40px;
+	width: 830px;
+	padding: 0px 10px;
+	color: black;
+	font-family: Bree;
+	font-variant-position: center;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 0px solid #000000;
+}
+#deta {
+	position: relative;
+	top: 110px;
+
+}
+#deta h1{
+	position: relative;
+	background: #81bbfc;
+	z-index: 1;
+	left: 10px;
+	height: 40px;
+	width: 830px;
+	padding: 0px 10px;
+	color: black;
+	font-family: Bree;
+	font-variant-position: center;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 0px solid #000000;
+}
+.titulo img{
+	position: absolute;
+	padding: 20px 200px 10px;
+}
+#galeria img:hover{
+	transform : scale(1.5);
+    -moz-transform : scale(1.5);      /* Firefox */
+    -webkit-transform : scale(1.5);   /* Chrome - Safari */
+    -o-transform : scale(1.5);
+    transition: width 2s, height 2s, transform 2s;
+    -moz-transition: width 2s, height 2s, -moz-transform 2s;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    -o-transition: width 2s, height 2s,-o-transform 2s;  
+}
+
+#galeria{
+	top: 20px;
+	left: 10px;
+	position: relative;
+	z-index: 2;
+}
+
+#imagen1{
+	position: absolute;
+	top: 350px;
+	left: -100px;
+}
+#imagen1 img:hover{
+	opacity: 0.5;
+}
+#imagen2{
+	position: absolute;
+	top: 350px;
+	left: 0px;
+}
+#imagen2 img:hover{
+	opacity: 0.5;
+}
+#imagen3{
+	position: absolute;
+	top: 350px;
+	left: 100px;
+}
+#imagen3 img:hover{
+	opacity: 0.5;
+}
+
+#precio{
+	position: absolute;
+	background: orange;
+	width: 200px;
+	height: 40px;
+	top: 370px;
+	left: 600px;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 0px solid #000000;
+}
+#precio h2{
+	padding: 5px 20px;
+}
+
+#anunciante{
+	position: relative;
+	background: #b1b6cd;
+	top:50px;
+	left: 900px;
+	width: 400px;
+	height: 370px;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	box-shadow:3px 3px 3px 3px #999;
+}
+#anunciante h1{
+	position: relative;
+	padding: 5px 15px 5px 15px;
+}
+#anunciante h2{
+	position: relative;
+	background: #b1a5cd;
+	width: 300px;
+	padding: 5px 15px 5px 15px;
+}
+#anunciante input{
+	position: relative;
+	width: 250px;
+	left: 25px;
+	top: 10px;
+	margin: 10px;
+	color: black;
+	padding: 10px 40px 10px;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	box-shadow:3px 3px 3px #999;
+}
+#sent{
+	position: relative;
+	background: #96eb18;
+	top:20px;
+	left: 140px;
+	width: 120px;
+	height: 50px;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 0px solid #000000;
+}
+#sent h1{
+	position: relative;
+	padding: 5px 10px 5px 10px;
+}
+.detalles{
+	position: relative;
+	margin: 10px;
+	background: #fff;
+	top: 110px;
+	width: 850px;
+	height: auto;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 0px solid #000000;
+}
+.detalles p{
+	padding: 15px 15px 15px 15px;
+}
+.detalles table{
+	position: relative;
+	border: orange 5px solid;
+	left: 100px;
+	width: 700px;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+}
+
+#map1{
+	position: relative;
+	top: 100px;
+	width:600px;
+	height:360px;
+	left: 100px;
+	padding: 20px 20px;
+}
+
+#_login{
+	position: relative;
+	background: #b1b6cd;
+	width: 400px;
+	height: 275px;
+	top: 100px;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	box-shadow:5px 5px 5px #999;
+
+}
+#_login fieldset{
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+}
+#_login h2{
+	top: 10px;
+	border: orange 5px solid;
+	left: 0px;
+	width: 240px;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+}
+#_login input{
+	position: relative;
+	left: 0px;
+	top: 10px;
+	margin: 10px;
+	color: black;
+	padding: 10px 40px 10px;
+}
+#_login h2{
+	position: relative;
+	padding: 5px 15px 5px 15px;
+}
+
+#inmobiliaria{
+	position: relative;
+	background: #b1b6cd;
+	left: 35%;
+	width: 400px;
+	height: auto;
+	top: 50px;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	box-shadow:5px 5px 5px #999;
+}
+
+}
+#inmobiliaria fieldset{
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+}
+#inmobiliaria h2{
+	margin: 10px;
+	width: 25%;
+	float: left;
+	padding: 11px 0px 0px 0px;
+  	
+}
+#inmobiliaria input{
+	position: relative;
+	left: 0px;
+	top: 10px;
+	margin: 10px;
+	color: black;
+	padding: 10px 40px 10px;
+}
+
+
+#inmobiliaria{
+	position: relative;
+	background: #b1b6cd;
+	left: 35%;
+	width: 400px;
+	height: auto;
+	top: 30px;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	box-shadow:5px 5px 5px #999;
+}
+
+}
+#inmobiliaria fieldset{
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+}
+#inmobiliaria h2{
+	margin: 10px;
+	width: 25%;
+	float: left;
+	padding: 11px 0px 0px 0px;	
+}
+#inmobiliaria p{
+	left: 10px;
+	color: #E53535;
+	padding: 11px 0px 0px 10px;	
+}
+#inmobiliaria input{
+	position: relative;
+	width: 296px;
+	left: 0px;
+	top: 10px;
+	margin: 10px;
+	color: black;
+	padding: 10px 40px 10px;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	box-shadow:3px 3px 3px #999;
+}
+#bienve{
+	padding: 11px 0px 0px 0px;
+}
+#anunciante button{
+	position: relative;
+	background-color: #4CAF50; /* Green */
+    border: none;
+    top: 15px;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	box-shadow:3px 3px 3px #999;
+}
+
+#interes{
+	background: #b1b6cd;
+	top:50px;
+	left: 900px;
+	width: 400px;
+	height: 370px;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	box-shadow:3px 3px 3px 3px #999;
+}

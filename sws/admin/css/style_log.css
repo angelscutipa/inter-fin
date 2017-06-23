@@ -1,0 +1,42 @@
+body{
+	background-image: url(2.jpg);
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	margin: 0;
+	font-family: monospace;
+}
+
+form{
+	width: 50%;
+	margin: auto;
+	background: rgba(0,0,0,0.6);
+	padding: 10px 20px;	
+	box-sizing: border-box;
+	margin-top: 25%;
+	border-radius: 7px;
+}
+
+h2{
+	color: #FFF;
+	text-align: center;
+	margin: 0;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+input{
+	width: 100%;
+	margin-bottom: 30px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+}
+
+#but{
+	background: #32384A;
+	color: #FFF;
+	padding: 20px;
+}
+#but:hover{
+	cursor: pointer;
+}
+
